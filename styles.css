@@ -320,7 +320,7 @@ h2:after {
 }
 
 .photos-group {
-  max-height: 24em;
+  /*max-height: 24em;*/
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,7 +335,7 @@ h2:after {
 
 .me-so-far {
   margin-top: 2em;
-  background: red;
+  /*background: red;*/
 }
 
 p {
