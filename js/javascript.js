@@ -14,7 +14,7 @@ const start = () => {
       direction === 'down' ? nav.className = 'sticky' : nav.className = 'hidden_menu';
     },
 
-    offset: '20px',
+    // offset: '20px',
   });
 
   //parallax the logo and name in the hero image
@@ -22,7 +22,7 @@ const start = () => {
     const verticalScroll = window.scrollY;
 
     if (verticalScroll <= photoContainer) {
-      square.style.transform = `translate(0%, ${verticalScroll / 1.9}% )`;
+      // square.style.transform = `translate(0%, ${verticalScroll / 1.9}% )`;
       title.style.transform = `translate(${verticalScroll / 8}%, ${verticalScroll / 4.9}%)`;
     }
   }
