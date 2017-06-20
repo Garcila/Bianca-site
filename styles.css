@@ -370,7 +370,7 @@ li {
   color: #ff0000;
 }
 
-#fun_fact {
+.fun_fact {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,6 +379,8 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  align-items: center;
+  padding: 5em;
 }
 
 .facts {
