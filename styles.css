@@ -214,7 +214,7 @@ h2:after {
   z-index: 2;
 }
 
-.sticky .main-nav li a:link,
+/*.sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;*
     color: #555;
@@ -223,7 +223,7 @@ h2:after {
 .sticky .logo { display: none; }
 .sticky .logo-black {display: block; }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav { margin-top: 18px; }*/
 
 /*MAIN CONTAINER_______________________________________________________*/
 
@@ -335,6 +335,7 @@ h2:after {
 
 .me-so-far {
   margin-top: 5em;
+  background: red;
 }
 
 p {
