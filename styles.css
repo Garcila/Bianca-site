@@ -31,7 +31,7 @@ section {
   margin: 5em 0;
   padding-top: 2em;
   padding-bottom: 2em;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 /* headings______________________________________________*/
@@ -338,8 +338,8 @@ h2:after {
 }
 
 .me-so-far {
-  margin-top: 2em;
-  background: rgb(38, 244, 151);
+  /*margin-top: 2em;*/
+  /*background: rgb(38, 244, 151);*/
 }
 
 p {
