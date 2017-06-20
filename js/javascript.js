@@ -21,7 +21,7 @@ const start = () => {
   function parallax() {
     const verticalScroll = window.scrollY;
 
-    if (verticalScroll <= photoContainer && verticalScroll < 400) {
+    if (verticalScroll <= photoContainer) {
       square.style.transform = `translate(0%, ${verticalScroll / 1.9}% )`;
       title.style.transform = `translate(${verticalScroll / 8}%, ${verticalScroll / 4.9}%)`;
     }
