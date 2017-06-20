@@ -80,13 +80,13 @@ h2:after {
 .big-photo {
   position: relative;
   height: 650px;
-  min-height: 200px;
+  /*min-height: 200px;*/
   background-image: url(./assets/images/B.png);
   /*background-size: auto 650px;*/
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  overflow: hidden;
+  /*overflow: hidden;*/
   font-family: 'Barrio', cursive;
 }
 
@@ -109,7 +109,7 @@ h2:after {
 .square {
   margin-left: 5%;
   margin-top: 1%;
-  margin-bottom: 5%;
+  /*margin-bottom: 5%;*/
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
