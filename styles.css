@@ -31,6 +31,7 @@ section {
   margin: 5em 0;
   padding-top: 2em;
   padding-bottom: 2em;
+  background-color: red;
 }
 
 /* headings______________________________________________*/
@@ -332,7 +333,7 @@ h2:after {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin: 0px 0px;
+  /*margin: 0px 0px;*/
 }
 
 .me-so-far {
