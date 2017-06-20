@@ -335,7 +335,7 @@ h2:after {
 
 .me-so-far {
   margin-top: 2em;
-  background: rgb(69, 15, 88);
+  background: rgb(60, 228, 173);
 }
 
 p {
@@ -378,6 +378,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  min-height: 4em;
 }
 
 .facts {
