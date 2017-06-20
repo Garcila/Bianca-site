@@ -371,6 +371,7 @@ li {
 }
 
 #fun_fact {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +379,6 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 4em;
 }
 
 .facts {
