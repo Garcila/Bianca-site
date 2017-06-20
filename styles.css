@@ -29,9 +29,9 @@ body {
 /*Reusable components*/
 section {
   margin: 5em 0;
-  /*padding-top: 2em;
+  padding-top: 2em;
   padding-bottom: 2em;
-  background-color: red;*/
+  background-color: red;
 }
 
 /* headings______________________________________________*/
