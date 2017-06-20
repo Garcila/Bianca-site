@@ -14,15 +14,15 @@ const start = () => {
       direction === 'down' ? nav.className = 'sticky' : nav.className = 'hidden_menu';
     },
 
-    offset: '20px',
+    offset: '80px',
   });
 
   //parallax the logo and name in the hero image
   function parallax() {
     const verticalScroll = window.scrollY;
 
-    if (verticalScroll <= photoContainer && verticalScroll < 380) {
-      square.style.transform = `translate(0%, ${verticalScroll / 1.9}% )`;
+    if (verticalScroll <= photoContainer && verticalScroll < 300) {
+      square.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
       title.style.transform = `translate(${verticalScroll / 8}%, ${verticalScroll / 4.9}%)`;
     }
   }
