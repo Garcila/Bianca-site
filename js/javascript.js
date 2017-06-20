@@ -23,7 +23,7 @@ const start = () => {
 
     if (verticalScroll <= photoContainer && verticalScroll < 300) {
       square.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
-      title.style.transform = `translate(${verticalScroll / 8}%, ${verticalScroll / 1}%)`;
+      title.style.transform = `translate(${verticalScroll / 8}%, ${verticalScroll / 10}%)`;
     }
   }
 
