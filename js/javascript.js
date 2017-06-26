@@ -3,13 +3,13 @@ const start = () => {
 
   //set up selections
   const photoContainer = document.querySelector('.big-photo').offsetHeight;
-  const square = document.querySelector('.square');
+  const square = document.querySelector('.logo');
   const title = document.querySelector('.title');
   const nav = document.querySelector('nav');
 
   //sticky navigation
   const waypoint = new Waypoint({
-    element: document.querySelector('.point'),
+    element: document.querySelector('.waypoint'),
     handler: (direction) => {
       direction === 'down' ? nav.className = 'sticky' : nav.className = 'hidden_menu';
     },
