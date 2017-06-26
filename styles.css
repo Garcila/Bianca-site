@@ -277,7 +277,7 @@ section:nth-of-type(even) {
 }
 
 .photos-group {
-    border: 1px solid orangered;
+    border: 1px solid blue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
