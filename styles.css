@@ -262,7 +262,7 @@ section:nth-of-type(even) {
     /*overflow: hidden;*/
     opacity: 0.8;
     max-width: 110%;
-    /*height: auto;*/
+    height: auto;
     -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, opacity 0.5s;
