@@ -121,6 +121,7 @@ section:nth-of-type(even) {
     color: #504f4f;
     font-family: 'Barrio', cursive;
     -webkit-text-stroke: 0.01em rgba(213, 210, 210, 0.4);
+    z-index: 1;
 }
 
 
@@ -200,7 +201,11 @@ section:nth-of-type(even) {
 }
 
 /*MAIN CONTAINER_______________________________________________________*/
-.main_container {
+.waypoint {
+    z-index: 2;
+}
+
+/*.main_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -213,10 +218,8 @@ section:nth-of-type(even) {
     align-items: center;
     padding-top: 2px;
     margin-top: 1em;
-    /*flex: 6.5;*/
-    
     font-family: 'Raleway', sans-serif;
-}
+}*/
 .fly-box {
     margin: 2em 0;
 }
