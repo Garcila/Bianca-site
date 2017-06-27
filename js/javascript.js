@@ -1,7 +1,7 @@
 /* eslint-env browser */
 const start = () => {
     //set up selections
-    const photoContainer = document.querySelector('.big-photo').offsetHeight;
+    const photoContainer = document.querySelector('.hero').offsetHeight;
     const square = document.querySelector('.logo');
     const title = document.querySelector('.title');
     const nav = document.querySelector('nav');
@@ -12,10 +12,10 @@ const start = () => {
         handler: (direction) => {
             if (direction === 'down') {
                 nav.className = 'sticky';
-                // document.body.style.paddingTop = nav.offsetHeight + 'px';
+                document.body.style.paddingTop = nav.offsetHeight + 'px';
             } else {
                 nav.className = 'hidden_menu';
-                // document.body.style.paddingTop = 0;
+                document.body.style.paddingTop = 0;
             }
         },
 
@@ -28,7 +28,8 @@ const start = () => {
 
         if ((verticalScroll <= photoContainer) && (verticalScroll < 250)) {
             square.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
-            title.style.transform = `translate(${verticalScroll * 0.2}%, ${verticalScroll * -0.1}%)`;
+            title.style.transform = `translate(0%, ${verticalScroll * 1.3}% )`;
+            // title.style.transform = `translate(${verticalScroll * 0.2}%, ${verticalScroll * -0.1}%)`;
         }
     }
 

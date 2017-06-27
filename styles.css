@@ -382,5 +382,11 @@
       .footer {
           height: auto;
       }
-      .title {}
+      .title {
+          font-size: 3em;
+      }
+      .fun_fact p {
+          letter-spacing: 0.1em;
+          line-height: 1.5em;
+      }
   }
