@@ -84,6 +84,7 @@ section:nth-of-type(even) {
     width: 100wh;
     /*background-attachment: fixed;*/
     display: flex;
+    overflow: hidden;
 }
 
 .logo {
@@ -201,9 +202,6 @@ section:nth-of-type(even) {
 }
 
 /*MAIN CONTAINER_______________________________________________________*/
-.waypoint {
-    z-index: 3;
-}
 
 /*.main_container {
     display: -webkit-box;
