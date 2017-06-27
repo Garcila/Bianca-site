@@ -111,7 +111,7 @@
   
   .title {
       position: absolute;
-      margin-top: 450px;
+      margin-top: 250px;
       margin-left: 5%;
       font-size: 5em;
       color: #504f4f;
@@ -382,4 +382,5 @@
       .footer {
           height: auto;
       }
+      .title {}
   }
