@@ -1,13 +1,16 @@
 /* eslint-env browser */
 
 const nav = document.querySelector('nav');
+const waypoint = document.querySelector('.waypoint');
 let topOfNav = nav.offsetTop;
 
 function fixNav() {
     if (window.scrollY >= topOfNav) {
         document.body.classList.add('fixed-nav');
+        waypoint.style.paddingTop = nav.offsetHeight + 'px';
     } else {
         document.body.classList.remove('fixed-nav');
+        document.body.style.paddingTop = 0;
     }
 }
 
@@ -15,9 +18,9 @@ window.addEventListener('scroll', fixNav);
 
 // const start = () => {
 //set up selections
-// const photoContainer = document.querySelector('.hero').offsetHeight;
-// const square = document.querySelector('.logo');
-// const title = document.querySelector('.title');
+const photoContainer = document.querySelector('.hero').offsetHeight;
+const square = document.querySelector('.logo');
+const title = document.querySelector('.title');
 // const nav = document.querySelector('nav');
 
 // //sticky navigation
@@ -37,17 +40,17 @@ window.addEventListener('scroll', fixNav);
 // });
 
 // //parallax the logo and name in the hero image
-// function parallax() {
-//     const verticalScroll = window.scrollY;
+function parallax() {
+    const verticalScroll = window.scrollY;
 
-//     if ((verticalScroll <= photoContainer) && (verticalScroll < 250)) {
-//         square.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
-//         title.style.transform = `translate(0%, ${verticalScroll * 1.3}% )`;
-//         // title.style.transform = `translate(${verticalScroll * 0.2}%, ${verticalScroll * -0.1}%)`;
-//     }
-// }
+    if ((verticalScroll <= photoContainer) && (verticalScroll < 250)) {
+        square.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
+        title.style.transform = `translate(0%, ${verticalScroll * 1.3}% )`;
+        // title.style.transform = `translate(${verticalScroll * 0.2}%, ${verticalScroll * -0.1}%)`;
+    }
+}
 
-// window.addEventListener('scroll', parallax);
+window.addEventListener('scroll', parallax);
 // };
 
 // start();
