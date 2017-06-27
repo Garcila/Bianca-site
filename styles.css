@@ -273,7 +273,6 @@
   }
   
   .photos-group {
-      border: 1px solid blue;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -298,7 +297,6 @@
       -ms-flex-align: center;
       align-items: center;
       height: 3em;
-      widht: 3em;
       list-style: none;
       border: 1px solid var(--name);
       margin-bottom: -1px;
@@ -320,6 +318,10 @@
       align-items: center;
   }
   
+  .fun_fact p {
+      letter-spacing: 0.2em;
+  }
+  
   .facts {
       font-family: 'Barrio', cursive;
       font-size: 1.4em;
@@ -339,12 +341,15 @@
       border: 0.6em solid var(--header_subtitle);
   }
   
+  .flag {
+      max-height: 2em;
+  }
+  
   footer {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      /*flex: 1 1 auto;*/
-      /*-ms-flex-item-align: stretch;*/
+      -ms-flex-item-align: stretch;
       align-self: stretch;
       -webkit-box-align: center;
       -ms-flex-align: center;
