@@ -68,14 +68,15 @@
   }
   /* hero image____________________________________________*/
   
-  .big-photo {
+  .hero {
       background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./assets/images/B.png);
       background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./assets/images/B.png);
       background-size: cover;
       background-position: center;
+      height: 100vh;
+      width: 100wh;
+      /*background-attachment: fixed;*/
       display: flex;
-      height: 800px;
-      background-attachment: fixed;
   }
   
   .logo {
