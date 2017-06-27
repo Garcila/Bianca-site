@@ -10,10 +10,16 @@ const start = () => {
     const waypoint = new Waypoint({
         element: document.querySelector('.waypoint'),
         handler: (direction) => {
-            direction === 'down' ? nav.className = 'sticky' : nav.className = 'hidden_menu';
+            if (direction === 'down') {
+                nav.className = 'sticky';
+                // document.body.style.paddingTop = nav.offsetHeight + 'px';
+            } else {
+                nav.className = 'hidden_menu';
+                // document.body.style.paddingTop = 0;
+            }
         },
 
-        offset: '80px',
+        offset: `${nav.offsetHeight}px`,
     });
 
     //parallax the logo and name in the hero image
