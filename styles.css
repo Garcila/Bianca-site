@@ -92,8 +92,6 @@ section:nth-of-type(even) {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
-    border: 1px solid red;
-    /*position: absolute;*/
 }
 
 .logo {
@@ -115,9 +113,6 @@ section:nth-of-type(even) {
 }
 
 .title {
-    /*position: absolute;*/
-    /*margin-top: 2.5em;*/
-    /*margin-left: 5%;*/
     font-size: 5em;
     color: #504f4f;
     font-family: 'Barrio', cursive;
