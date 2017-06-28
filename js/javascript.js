@@ -52,8 +52,8 @@ function parallax() {
     }
 }
 
-window.addEventListener('touchmove', parallax, false);
-window.addEventListener('scroll', parallax, false);
+document.addEventListener('touchmove', parallax, false);
+document.addEventListener('scroll', parallax, false);
 // };
 
 // start();
