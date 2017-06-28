@@ -386,4 +386,7 @@ footer {
         letter-spacing: 0.1em;
         line-height: 1.5em;
     }
+    .fixed-nav .menu_title {
+        font-size: 1em;
+    }
 }
