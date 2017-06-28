@@ -86,13 +86,18 @@ section:nth-of-type(even) {
     width: 100wh;
     display: flex;
     overflow: hidden;
+}
+
+.letters {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
     border: 1px solid red;
+    /*position: absolute;*/
 }
 
 .logo {
-    margin-left: 5%;
     margin-top: 2.5%;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,9 +115,9 @@ section:nth-of-type(even) {
 }
 
 .title {
-    position: absolute;
-    margin-top: 2.5em;
-    margin-left: 5%;
+    /*position: absolute;*/
+    /*margin-top: 2.5em;*/
+    /*margin-left: 5%;*/
     font-size: 5em;
     color: #504f4f;
     font-family: 'Barrio', cursive;
@@ -375,6 +380,7 @@ footer {
     }
     .title {
         font-size: 2em;
+        margin-top: 1em;
     }
     .fun_fact p {
         letter-spacing: 0.1em;

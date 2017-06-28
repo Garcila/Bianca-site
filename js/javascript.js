@@ -21,6 +21,7 @@ window.addEventListener('scroll', fixNav);
 const photoContainer = document.querySelector('.hero').offsetHeight;
 const logo = document.querySelector('.logo');
 const title = document.querySelector('.title');
+const letters = document.querySelector('.letters');
 // const nav = document.querySelector('nav');
 
 // //sticky navigation
@@ -44,8 +45,8 @@ function parallax() {
     const verticalScroll = window.scrollY;
 
     if ((verticalScroll <= photoContainer)) {
-        logo.style.transform = `translate(0%, ${verticalScroll / 3}% )`;
-        title.style.transform = `translate(0%, ${verticalScroll / 1.6}% )`;
+        letters.style.transform = `translate(0%, ${verticalScroll / 8}% )`;
+        // title.style.transform = `translate(0%, ${verticalScroll / 1.6}% )`;
         // title.style.transform = `translate(${verticalScroll * 0.2}%, ${verticalScroll * -0.1}%)`;
     }
 }
