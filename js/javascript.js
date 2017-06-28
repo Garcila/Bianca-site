@@ -14,8 +14,10 @@ function fixNav() {
     }
 }
 
-document.addEventListener('scroll', fixNav);
-document.addEventListener('touchmove', fixNav, false);
+window.addEventListener('scroll', fixNav);
+window.addEventListener('touchmove', fixNav, false);
+window.addEventListener('touchmove', () => { console.log('zapato'); }, false);
+window.addEventListener('scroll', () => { console.log('zapato'); }, false);
 
 // const start = () => {
 //set up selections
@@ -52,8 +54,8 @@ function parallax() {
     }
 }
 
-document.addEventListener('touchmove', parallax, false);
-document.addEventListener('scroll', parallax, false);
+window.addEventListener('touchmove', parallax, false);
+window.addEventListener('scroll', parallax, false);
 // };
 
 // start();
