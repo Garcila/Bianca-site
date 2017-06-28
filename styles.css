@@ -145,9 +145,10 @@ section:nth-of-type(even) {
 
 /*menu_____________________________-*/
 
-.hidden_menu {
+
+/*.hidden_menu {
     display: none;
-}
+}*/
 
 .menu {
     display: -webkit-box;
@@ -160,7 +161,7 @@ section:nth-of-type(even) {
     -ms-flex-pack: justify;
     justify-content: space-between;
     /*background-color: #fff;*/
-    background-color: orange;
+    background-color: red;
 }
 
 .menu_logo {
@@ -199,7 +200,7 @@ section:nth-of-type(even) {
 
 /*STICKY NAV_____________________________________________________ */
 
-.fixed-nav nav {
+.fixed-nav .menu {
     position: fixed;
     top: 0;
     -webkit-box-shadow: 0 5px rgba(0, 0, 0, 0.1);

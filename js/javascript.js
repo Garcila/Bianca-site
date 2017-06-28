@@ -1,6 +1,6 @@
 /* eslint-env browser */
 
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.menu');
 const waypoint = document.querySelector('.waypoint');
 // let topOfNav = nav.offsetTop;
 
