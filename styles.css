@@ -389,4 +389,10 @@ footer {
     .fixed-nav .menu_title {
         font-size: 1em;
     }
+    .robot {
+        transform: scale(0.2)
+    }
+    .robot_large {
+        transform: scale(0.5);
+    }
 }
