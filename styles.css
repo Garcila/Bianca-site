@@ -160,8 +160,7 @@ section:nth-of-type(even) {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /*background-color: #fff;*/
-    background-color: red;
+    background-color: #fff;
 }
 
 .menu_logo {

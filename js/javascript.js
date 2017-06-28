@@ -10,10 +10,10 @@ function fixNav() {
     // if (window.scrollY >= topOfNav) {
     if (verticalScroll >= photoContainer) {
         document.body.classList.add('fixed-nav');
-        // waypoint.style.paddingTop = nav.offsetHeight + 'px';
+        waypoint.style.paddingTop = nav.offsetHeight + 'px';
     } else {
         document.body.classList.remove('fixed-nav');
-        // document.body.style.paddingTop = 0;
+        document.body.style.paddingTop = 0;
     }
 }
 
