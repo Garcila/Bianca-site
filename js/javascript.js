@@ -8,7 +8,7 @@ function fixNav() {
     const verticalScroll = window.scrollY;
 
     // if (window.scrollY >= topOfNav) {
-    if (verticalScroll >= photoContainer - 100) {
+    if (verticalScroll >= photoContainer + 100) {
         document.body.classList.add('fixed-nav');
         waypoint.style.paddingTop = nav.offsetHeight + 'px';
     } else {
