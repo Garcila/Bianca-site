@@ -2,10 +2,13 @@
 
 const nav = document.querySelector('nav');
 const waypoint = document.querySelector('.waypoint');
-let topOfNav = nav.offsetHeight;
+// let topOfNav = nav.offsetTop;
 
 function fixNav() {
-    if (window.scrollY >= topOfNav) {
+    const verticalScroll = window.scrollY;
+
+    // if (window.scrollY >= topOfNav) {
+    if (verticalScroll >= photoContainer) {
         document.body.classList.add('fixed-nav');
         waypoint.style.paddingTop = nav.offsetHeight + 'px';
     } else {
@@ -16,8 +19,6 @@ function fixNav() {
 
 window.addEventListener('scroll', fixNav);
 window.addEventListener('touchmove', fixNav, false);
-window.addEventListener('touchmove', () => { console.log('zapato'); }, false);
-window.addEventListener('scroll', () => { console.log('zapato'); }, false);
 
 //set up selections
 const photoContainer = document.querySelector('.hero').offsetHeight;
