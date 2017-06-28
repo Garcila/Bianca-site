@@ -14,8 +14,8 @@ function fixNav() {
     }
 }
 
-window.addEventListener('scroll', fixNav);
-window.addEventListener('touchmove', fixNav, false);
+document.addEventListener('scroll', fixNav);
+document.addEventListener('touchmove', fixNav, false);
 
 // const start = () => {
 //set up selections
@@ -52,8 +52,8 @@ function parallax() {
     }
 }
 
-window.addEventListener('scroll', parallax);
 window.addEventListener('touchmove', parallax, false);
+window.addEventListener('scroll', parallax, false);
 // };
 
 // start();
