@@ -15,7 +15,7 @@ function fixNav() {
 }
 
 window.addEventListener('scroll', fixNav);
-window.onscroll = function() { alert("Scrolled"); };
+window.addEventListener('touchmove', fixNav);
 
 // const start = () => {
 //set up selections
