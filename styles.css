@@ -82,7 +82,6 @@ section:nth-of-type(even) {
     background-position: center;
     height: 100vh;
     width: 100wh;
-    /*background-attachment: fixed;*/
     display: flex;
     overflow: hidden;
 }
@@ -116,7 +115,7 @@ section:nth-of-type(even) {
 
 .title {
     position: absolute;
-    margin-top: 250px;
+    margin-top: 15%;
     margin-left: 5%;
     font-size: 5em;
     color: #504f4f;
@@ -383,7 +382,7 @@ footer {
     }
     
     .title {
-        font-size: 3em;
+        font-size: 2em;
     }
     
     .fun_fact p {
