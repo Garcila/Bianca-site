@@ -2,7 +2,7 @@
 
 const nav = document.querySelector('nav');
 const waypoint = document.querySelector('.waypoint');
-let topOfNav = nav.offsetTop;
+let topOfNav = nav.offsetHeight;
 
 function fixNav() {
     if (window.scrollY >= topOfNav) {
