@@ -19,7 +19,7 @@ window.addEventListener('scroll', fixNav);
 // const start = () => {
 //set up selections
 const photoContainer = document.querySelector('.hero').offsetHeight;
-const square = document.querySelector('.logo');
+const logo = document.querySelector('.logo');
 const title = document.querySelector('.title');
 // const nav = document.querySelector('nav');
 
@@ -43,9 +43,9 @@ const title = document.querySelector('.title');
 function parallax() {
     const verticalScroll = window.scrollY;
 
-    if ((verticalScroll <= photoContainer) && (verticalScroll < 250)) {
-        square.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
-        title.style.transform = `translate(0%, ${verticalScroll / 1.4}% )`;
+    if ((verticalScroll <= photoContainer)) {
+        logo.style.transform = `translate(0%, ${verticalScroll / 3}% )`;
+        title.style.transform = `translate(0%, ${verticalScroll / 1.6}% )`;
         // title.style.transform = `translate(${verticalScroll * 0.2}%, ${verticalScroll * -0.1}%)`;
     }
 }
